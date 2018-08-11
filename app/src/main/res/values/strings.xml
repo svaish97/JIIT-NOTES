@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="year">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </string-array>
+</resources>
