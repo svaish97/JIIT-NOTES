@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/signOut"
+        android:title="SignOut"/>
+    <item
+        android:id="@+id/tnc_logout"
+        android:title="Terms and Conditions"/>
+    <item
+        android:id="@+id/privacy_logout"
+        android:title="Privacy Policy"/>
+</menu>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
     android:gravity="center"
-    android:background="@color/colorSplash"
+    android:background="@drawable/splashscreen"
     android:orientation="vertical">
 
 
@@ -17,42 +17,37 @@
         android:id="@+id/blur"
         android:src="@drawable/notes"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Think"
-            android:layout_margin="10sp"
-            android:textSize="22sp"
-            android:textColor="#FFFFFF"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Share"
-            android:layout_margin="10sp"
-            android:textSize="22sp"
-            android:textColor="#FFFFFF"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Unite"
-            android:layout_margin="10sp"
-            android:textSize="22sp"
-            android:textColor="#FFFFFF"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Think"-->
+            <!--android:layout_margin="10sp"-->
+            <!--android:textSize="22sp"-->
+            <!--android:textColor="#FFFFFF"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Share"-->
+            <!--android:layout_margin="10sp"-->
+            <!--android:textSize="22sp"-->
+            <!--android:textColor="#FFFFFF"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Unite"-->
+            <!--android:layout_margin="10sp"-->
+            <!--android:textSize="22sp"-->
+            <!--android:textColor="#FFFFFF"/>-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30sp"/>
+
 
 
 </LinearLayout>

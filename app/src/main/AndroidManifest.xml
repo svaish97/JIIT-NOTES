@@ -27,11 +27,16 @@
             android:name=".MainActivity"
             android:label="JIIT Notes"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main2Activity"
             android:screenOrientation="portrait" />
-        <activity android:name=".aboutTheDevelopers"></activity>
+        <activity android:name=".aboutTheDevelopers" />
+        <activity
+            android:name=".authentication"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PrivacyPolicy" />
+        <activity android:name=".ViewPDF"></activity>
     </application>
 
 </manifest>

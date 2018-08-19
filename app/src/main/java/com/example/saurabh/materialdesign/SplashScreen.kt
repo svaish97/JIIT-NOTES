@@ -24,13 +24,13 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
 
-        progressBar.progressDrawable.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN)
-
+//        progressBar.progressDrawable.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN)
+//
        Thread(Runnable{
             for (i in 1..100 step 10)
             {
                 Thread.sleep(150)
-                progressBar.progress=i
+//                progressBar.progress=i
             }
             Thread.sleep(500)
             startActivity(Intent(this@SplashScreen,MainActivity::class.java))
