@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.saurabh.materialdesign">
+    package="com.vaish.saurabh.jiitnotes">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name="com.vaish.saurabh.jiitnotes.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,20 +23,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".MainActivity"
+            android:name="com.vaish.saurabh.jiitnotes.MainActivity"
             android:label="JIIT Notes"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
-            android:name=".Main2Activity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".aboutTheDevelopers" />
+            android:name="com.vaish.saurabh.jiitnotes.Main2Activity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.vaish.saurabh.jiitnotes.MainActivity"/>
+
+        <activity android:name="com.vaish.saurabh.jiitnotes.aboutTheDevelopers" />
+
         <activity
-            android:name=".authentication"
+            android:name="com.vaish.saurabh.jiitnotes.authentication"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PrivacyPolicy" />
-        <activity android:name=".ViewPDF"></activity>
+
+        <activity android:name="com.vaish.saurabh.jiitnotes.PrivacyPolicy"
+            android:parentActivityName="com.vaish.saurabh.jiitnotes.MainActivity"/>
+
+        <activity android:name="com.vaish.saurabh.jiitnotes.ViewPDF"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

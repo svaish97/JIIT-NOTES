@@ -49,6 +49,94 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199565508576:android:f331d54c3504ccff",
+        "android_client_info": {
+          "package_name": "com.vaish.saurabh.jiitnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199565508576-8pmulkuqh956gsoie067o030djumhtj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaish.saurabh.jiitnotes",
+            "certificate_hash": "40828074f9f86fd153d8af5c450b0943b975d828"
+          }
+        },
+        {
+          "client_id": "199565508576-i89rrh3rqj5r87l4q148aaonh90i7v0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFuUt8jK941L7R_K_pPI9J78B0Jlz5EhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199565508576-i89rrh3rqj5r87l4q148aaonh90i7v0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199565508576:android:435d69616b0d3bcb",
+        "android_client_info": {
+          "package_name": "com.vaish.saurabh.materialdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199565508576-18eblrhi3bq7j1r3nlfkcr0oghl38bgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaish.saurabh.materialdesign",
+            "certificate_hash": "40828074f9f86fd153d8af5c450b0943b975d828"
+          }
+        },
+        {
+          "client_id": "199565508576-i89rrh3rqj5r87l4q148aaonh90i7v0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFuUt8jK941L7R_K_pPI9J78B0Jlz5EhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199565508576-i89rrh3rqj5r87l4q148aaonh90i7v0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"
